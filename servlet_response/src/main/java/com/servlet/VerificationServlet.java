@@ -32,7 +32,6 @@ public class VerificationServlet extends HttpServlet {
         resp.setHeader("Pragma", "no-cache");
 
         ImageIO.write(image, "png", resp.getOutputStream());
-
     }
 
     // gen random num
