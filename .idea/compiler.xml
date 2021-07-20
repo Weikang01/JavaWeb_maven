@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="servlet_request" />
+        <module name="servlet_jsp" />
         <module name="servlet-02" />
         <module name="servlet-01" />
         <module name="servlet_response" />

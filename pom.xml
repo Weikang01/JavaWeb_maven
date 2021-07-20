@@ -13,6 +13,7 @@
     <module>servlet-02</module>
       <module>servlet_response</module>
       <module>servlet_request</module>
+      <module>servlet_jsp</module>
   </modules>
   <!--package file format : .war
   .jar for java app
@@ -43,6 +44,18 @@
       <groupId>javax.servlet.jsp</groupId>
       <artifactId>javax.servlet.jsp-api</artifactId>
       <version>2.3.3</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl-api -->
+    <dependency>
+      <groupId>javax.servlet.jsp.jstl</groupId>
+      <artifactId>jstl-api</artifactId>
+      <version>1.2</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/taglibs/standard -->
+    <dependency>
+      <groupId>taglibs</groupId>
+      <artifactId>standard</artifactId>
+      <version>1.1.2</version>
     </dependency>
 
   </dependencies>
