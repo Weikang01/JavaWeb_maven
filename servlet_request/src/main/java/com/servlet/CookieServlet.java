@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.URLDecoder;
 import java.net.URLEncoder;
+import java.util.ArrayList;
 import java.util.Date;
 
 public class CookieServlet extends HttpServlet {
@@ -30,6 +31,7 @@ public class CookieServlet extends HttpServlet {
                     long lastTimeLong = Long.parseLong(cookies[i].getValue());
                     Date date = new Date(lastTimeLong);
                     out.write(URLDecoder.decode(date.toLocaleString(), "utf-8"));
+
                 }
             }
         }else {

@@ -6,11 +6,11 @@
 <body>
 
 <%%>
-
-404
-
+<div>this is jsptag2.jsp</div>
 
 
+name: <%=request.getParameter("name")%>
+age: <%=request.getParameter("age")%>
 
 
 
