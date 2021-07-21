@@ -7,7 +7,7 @@ import java.io.IOException;
 public class CharacterEncodingFilter implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
-        System.out.println("init CharacterEncodingFilter");
+//        System.out.println("init CharacterEncodingFilter");
     }
 
     @Override
@@ -16,13 +16,13 @@ public class CharacterEncodingFilter implements Filter {
         servletResponse.setCharacterEncoding("utf-8");
         servletResponse.setContentType("text/html;charset=utf-8");
 
-        System.out.println("Before CharacterEncodingFilter");
+//        System.out.println("Before CharacterEncodingFilter");
         filterChain.doFilter(servletRequest, servletResponse);  // let the request pass through the filter, otherwise the program will stuck here
-        System.out.println("After CharacterEncodingFilter");
+//        System.out.println("After CharacterEncodingFilter");
     }
 
     @Override
     public void destroy() {
-        System.out.println("destroy CharacterEncodingFilter");
+//        System.out.println("destroy CharacterEncodingFilter");
     }
 }
