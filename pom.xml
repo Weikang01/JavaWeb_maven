@@ -14,6 +14,7 @@
       <module>servlet_response</module>
       <module>servlet_request</module>
       <module>servlet_jsp</module>
+      <module>servlet_javaBean</module>
   </modules>
   <!--package file format : .war
   .jar for java app

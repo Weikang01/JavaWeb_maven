@@ -6,8 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="servlet_request" />
+        <module name="servlet_javaBean" />
         <module name="servlet_jsp" />
+        <module name="servlet_request" />
         <module name="servlet-02" />
         <module name="servlet-01" />
         <module name="servlet_response" />
