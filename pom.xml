@@ -15,6 +15,7 @@
       <module>servlet_request</module>
       <module>servlet_jsp</module>
       <module>servlet_javaBean</module>
+      <module>servlet_MVC</module>
   </modules>
   <!--package file format : .war
   .jar for java app
@@ -58,6 +59,11 @@
       <artifactId>standard</artifactId>
       <version>1.1.2</version>
     </dependency>
-
+    <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.17</version>
+    </dependency>
   </dependencies>
 </project>
