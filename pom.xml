@@ -16,6 +16,7 @@
       <module>servlet_jsp</module>
       <module>servlet_javaBean</module>
       <module>servlet_MVC</module>
+      <module>servlet_JDBC</module>
   </modules>
   <!--package file format : .war
   .jar for java app

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -32,7 +32,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="de9a777a-0269-4607-b9f0-7f1e3489eaf9">
-      <console name="Connection" type="STANDARD" schema="jdbc-demo" session="Main"><![CDATA[select * from employees]]></console>
+      <console name="Connection" type="STANDARD" schema="jdbc-demo" session="Main"><![CDATA[insert into employees(id, email, first_name, last_name) values (8, 'jerry.tom@foo.com', 'Tom', 'Jerry');]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">

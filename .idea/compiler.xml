@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="servlet_javaBean" />
         <module name="servlet_jsp" />
+        <module name="servlet_JDBC" />
         <module name="servlet_request" />
         <module name="servlet-02" />
         <module name="servlet-01" />
